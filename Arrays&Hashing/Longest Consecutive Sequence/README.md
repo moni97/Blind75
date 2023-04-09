@@ -4,6 +4,7 @@
 Notes:
 1. Use sets, as lookup/inset/delete all are O(1)
 2. Start counting the length when the element is the starting of the sequence.
+3. Loop until the current element plus the current legnth is in the nums(which is a set).
 
 
 Runtime
